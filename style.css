@@ -2,10 +2,12 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Mate', serif;
+}
 .cabeçalho
 {
-    background-color: #F9DCDC;
+    background-color: #DE9F9F;
     color: black;
     display: flex;
     justify-content: space-around;
@@ -14,4 +16,35 @@
 .cabeçalho-lista-item{
     display: inline-block;
     margin: 0 16px;
+}
+
+.escola{
+    background-image:linear-gradient(#DE9F9F,#F5F5F5);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola-div-conteúdo{
+    width: 35%;
+}
+
+.escola-título{
+    padding: 24px 0;
+}
+
+.escola-texto-um{
+    padding: 16px 0;
+}
+
+.Equipe{
+    background-color: #F5F5F5;
+    color: black;
+    justify-content: center;
 }
