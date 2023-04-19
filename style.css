@@ -46,5 +46,46 @@ body{
 .Equipe{
     background-color: #F5F5F5;
     color: black;
-    justify-content: center;
+    display:block;
+    justify-content: space-around; 
+    align-items: center;
+    padding: 24px 0;
 }
+
+.Equipe-título{
+    text-align: center;
+    padding: 24px 0;
+}
+
+.Equipe-estudantes{
+    text-align: center;
+    padding:16px 0;
+}
+
+.Equipe-div-aluno{
+    text-align: center;
+    width: 20%;
+}
+
+.Equipe-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+
+}
+
+.rodapé{
+    background-color: #C7E99B;
+    color: black;   
+    display: flex;
+    justify-content: space-around;
+    padding:24px 0;
+}
+
+.rodapé-logotipo-instagram{
+    width: 24px;
+}
+    
+.rodapé-texto-instagram{
+    display: inline-block;
+}
+  
